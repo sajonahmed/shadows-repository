@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "poppins", sans-serif;
+  background-color: aliceblue;
+  color: #444;
+  font-size: 1.3rem;
+}
+table {
+  background-color: white;
+  margin: 100px auto;
+  border-radius: 5px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.1);
+  border-collapse: collapse;
+}
+tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+tbody tr td:nth-child(4) {
+  text-align: right;
+}
+tbody tr td:nth-child(5) {
+  text-align: right;
+}
+tbody tr td:nth-child(6) {
+  text-align: right;
+}
+tbody tr td:nth-child(3) {
+  text-align: center;
+}
+tbody tr td:first-child {
+  color: royalblue;
+}
+tbody tr td:last-child {
+  display: inline-block;
+  background-color: lightblue;
+  padding: 3px 5px;
+  margin: 15px auto;
+  border-radius: 3px;
+  color: white;
+}
+.not-recieved td:last-child {
+  background-color: orange;
+}
+.under-shipment td:last-child {
+  background-color: rgb(32, 178, 69);
+}
+
+th,
+td {
+  letter-spacing: 2px;
+  padding: 20px;
+}
+tbody tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+th {
+  text-transform: uppercase;
+}
